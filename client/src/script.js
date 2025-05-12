@@ -65,9 +65,13 @@ let userFetch = async () => {
         let {login, html_url, avatar_url} = data; // დავშალეთ ობიექტი - Destructing
         
         // წამოღებული მნიშვნელობები შევინახეთ ელემენტებში.
+        
         userNameSpan.innerHTML = `<span style="color: #2cb67d; text-decoration: underline;">${login}</span>`;
+        
         img.src = `${avatar_url}`;
+        
         a.innerHTML =` <a style="color: #2cb67d; font-size: 22px; padding-left: 10px;" href="${html_url}" target="_blank">${html_url}</a>`;
+
         input.value = ''
         
         

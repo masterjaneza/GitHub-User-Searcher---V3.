@@ -52,14 +52,6 @@ main {
 
 /* Main Card - Glass effect style */
 
-  .div1 {
-    margin-top: -230px;
-    width: 150px;
-    height: 150px;
-    background-color: #00ffcc;
-    z-index: 0;
-  }
-
   .background-layer {
     position: absolute;
     width: 100%;
@@ -76,7 +68,7 @@ main {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); */
     border: 1px solid rgba(255, 255, 255, 0.55);
     z-index: 1;
     box-shadow: 0px 4px 250px 90px rgba(255, 255, 255, 0.25);
@@ -307,7 +299,8 @@ a {
     }
 }
 
-@media (max-width: 425px) {
+
+@media (max-width: 425px) { 
     .parent {
         flex-direction: column
     }
@@ -365,6 +358,5 @@ a {
     .parent .search {
         width: 220px;
         margin-left: 29px;
-    }
-        
+    } 
 }
