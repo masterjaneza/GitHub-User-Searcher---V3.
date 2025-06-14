@@ -37,6 +37,25 @@ Welcome! This is **GitHub User Searcher V3** - a fast, lightweight, and visually
  Davit Janezashvili aka MasterJaneza
 
 
+---
+
+---
+
+## ⚙️ Setup & Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/masterjaneza/Horizontal-Scroll-Gallery---V1.git
+
+**Open the Project:**
+
+- Open `index.html` in your browser  
+  **or**
+- Use **Live Server** in VS Code.
+--- 
+
+---
+
 
 
 Georgian:
